@@ -21,7 +21,7 @@ export default function About() {
   return (
     <Base
       title="About // Vedant Mistry"
-      tagline="Create. Share. Repeat."
+      tagline="Reason. Reason. Reason."
       primaryColor="pink"
       secondaryColor="purple"
     >

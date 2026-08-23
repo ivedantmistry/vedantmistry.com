@@ -1,13 +1,13 @@
 const items = [
   // {
-  //   year: '2026',
+  //   year: '2025',
   //   summary: '',
   //   talks: [
   //     {
-  //       title: 'Resend Forward',
+  //       title: 'Workshop by MEA and Wadhwani Foundation',
   //       url: 'https://resend.com/forward',
   //       date: '2026-10-21',
-  //       where: 'San Francisco, CA - USA'
+  //       where: 'l'
   //     },
   //     {
   //       title: 'Abstract Conf',

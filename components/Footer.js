@@ -8,22 +8,22 @@ const FOOTER_LINKS = [
   },
   {
     title: 'Twitter',
-    url: 'https://twitter.com/zenorocha',
+    url: 'https://twitter.com/ivedantmistry',
     icon: 'ri-twitter-line'
   },
   {
     title: 'GitHub',
-    url: 'https://github.com/zenorocha',
+    url: 'https://github.com/ivedantmistry',
     icon: 'ri-github-line'
   },
   {
     title: 'LinkedIn',
-    url: 'https://linkedin.com/in/zenorocha',
+    url: 'https://linkedin.com/in/ivedantmistry',
     icon: 'ri-linkedin-line'
   },
   {
     title: 'Instagram',
-    url: 'https://instagram.com/zenorocha',
+    url: 'https://instagram.com/ivedantmistry',
     icon: 'ri-instagram-line'
   }
 ];

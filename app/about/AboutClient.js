@@ -6,7 +6,7 @@ import React from 'react';
 
 import { AnimatedIcon } from '../../components/AnimatedIcon';
 import { ButtonPrimary } from '../../components/ButtonPrimary';
-import Pronunciation from '../../components/Pronunciation';
+// import Pronunciation from '../../components/Pronunciation';
 import Toast from '../../components/Toast';
 import items from '../../data/about';
 import copyBioIcon from '../../public/static/icons/copy-bio.json';
@@ -36,10 +36,12 @@ export default function AboutClient({ description }) {
         <div className="mt-0 w-auto md:w-[48%]">
           <p className="mt-4 md:my-3.75 md:-mt-1.5">
             <strong>Hey, I&apos;m Vedant Mistry</strong>
-            <Pronunciation />I started as a software engineer in 2025,
+            {/* <Pronunciation /> */}
+            <br></br>
+            I started as a software engineer in 2025,
             working with Django and Next.js.
           </p>
-          <p className="md:my-3.75">
+          {/* <p className="md:my-3.75">
             I&apos;m a <strong>Thinker & Creator</strong> and also a Graduate student in Germany. Before that,
             I was a VP of Developer Experience at WorkOS and CPO at Liferay
             Cloud. I&apos;m originally from Brazil and now living in{' '}
@@ -50,7 +52,7 @@ export default function AboutClient({ description }) {
             <strong>I love dark mode</strong>, open source, and side projects.
             When I&apos;m not working, I like running, watching movies, and{' '}
             <strong>eating cheese</strong>.
-          </p>
+          </p> */}
         </div>
       </div>
     );
@@ -60,7 +62,7 @@ export default function AboutClient({ description }) {
     return (
       <div>
         <p>
-          This is made for journalists, podcast hosts, and event organizers to
+          This is made for journalists, podcast hosts, event organizers and researchers to
           copy-and-paste.
         </p>
         <blockquote>

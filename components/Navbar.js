@@ -12,9 +12,9 @@ export default function Navbar() {
     'About',
     'Articles',
     'Projects',
-    'Talks',
+    // 'Talks',
     'Podcasts',
-    'Investing',
+    // 'Investing',
     'Uses',
     'Reminder'
   ];

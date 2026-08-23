@@ -60,7 +60,7 @@ export const metadata = {
     default: 'Vedant Mistry',
     template: '%s // Vedant Mistry'
   },
-  description: 'Obsessed with developer experience',
+  description: 'Curious Thinker and Creator',
   authors: [{ name: 'Vedant Mistry' }],
   openGraph: {
     type: 'website',

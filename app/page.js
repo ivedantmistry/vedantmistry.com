@@ -7,10 +7,10 @@ import { getPersonJsonLd } from '../lib/json-ld';
 
 export const metadata = {
   title: 'Vedant Mistry',
-  description: 'Obsessed with developer experience',
+  description: 'Curious Thinker and Creator',
   openGraph: {
     title: 'Vedant Mistry',
-    description: 'Obsessed with developer experience',
+    description: 'Curious Thinker and Creator',
     url: 'https://vedantmistry.com',
     images: ['/static/images/home-bw.jpg']
   }
