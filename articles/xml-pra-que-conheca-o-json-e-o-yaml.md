@@ -20,8 +20,8 @@ Vejamos, então, um exemplo de uma estrutura de dados usando **JSON**.
 
 ```json
 {
-  "nome": "zeno rocha - blog",
-  "url": "https://zenorocha.com",
+  "nome": "Vedant Mistry - blog",
+  "url": "https://vedantmistry.com",
   "posts": [
     {
       "titulo": "do it! - as simple as you can",
@@ -39,14 +39,14 @@ A mesma estrutura utilizando **YAML**:
 
 ```yml
 blog:
-  nome: "zeno rocha - blog"
-  url: "https://zenorocha.com"
+  nome: 'Vedant Mistry - blog'
+  url: 'https://vedantmistry.com'
   post:
-    titulo: "do it! - as simple as you can"
-    data: "13/04/2011"
+    titulo: 'do it! - as simple as you can'
+    data: '13/04/2011'
   post:
-    titulo: "hello world"
-    data: "12/04/2011"
+    titulo: 'hello world'
+    data: '12/04/2011'
 ```
 
 E agora compare-as com o formato **XML**:
@@ -54,8 +54,8 @@ E agora compare-as com o formato **XML**:
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
 <blog>
-  <nome>zeno rocha - blog</nome>
-  <url>http://blog.zenorocha.com</url>
+  <nome>Vedant Mistry - blog</nome>
+  <url>http://blog.vedantmistry.com</url>
   <post>
     <titulo>do it! - as simple as you can</titulo>
     <data>13/04/2011</data>

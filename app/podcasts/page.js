@@ -15,8 +15,8 @@ export const metadata = {
   description:
     'Audio is a powerful medium and a great way to debate ideas. Whenever possible I try to share my story as a guest or meet new people by hosting my own podcast called ByteTalk.',
   openGraph: {
-    title: 'Podcasts // Zeno Rocha',
-    url: 'https://zenorocha.com/podcasts',
+    title: 'Podcasts // Vedant Mistry',
+    url: 'https://vedantmistry.com/podcasts',
     images: ['/static/images/podcasts-bw.jpg']
   }
 };
@@ -55,7 +55,7 @@ export default function Podcasts() {
 
   return (
     <Base
-      title="Podcasts // Zeno Rocha"
+      title="Podcasts // Vedant Mistry"
       tagline="Ideas. Thoughts. Opinions."
       primaryColor="pink"
       secondaryColor="purple"

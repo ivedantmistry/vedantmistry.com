@@ -6,8 +6,8 @@ export const metadata = {
   description:
     "I often get messages asking about specific pieces of software or hardware I use. This not a static page, it's a living document with everything that I'm using nowadays.",
   openGraph: {
-    title: 'Uses // Zeno Rocha',
-    url: 'https://zenorocha.com/uses',
+    title: 'Uses // Vedant Mistry',
+    url: 'https://vedantmistry.com/uses',
     images: ['/static/images/uses-bw.jpg']
   }
 };
@@ -40,7 +40,7 @@ export default function Uses() {
 
   return (
     <Base
-      title="Uses // Zeno Rocha"
+      title="Uses // Vedant Mistry"
       tagline="Tools. Apps. Gear."
       primaryColor="yellow"
       secondaryColor="pink"

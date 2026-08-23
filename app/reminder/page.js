@@ -6,8 +6,8 @@ export const metadata = {
   description:
     'Time is the most important asset. Time does not equal money. Time equals life. And you only have one chance to make it right.',
   openGraph: {
-    title: 'Reminder // Zeno Rocha',
-    url: 'https://zenorocha.com/reminder',
+    title: 'Reminder // Vedant Mistry',
+    url: 'https://vedantmistry.com/reminder',
     images: ['/static/images/reminder-bw.jpg']
   }
 };
@@ -15,7 +15,7 @@ export const metadata = {
 export default function Reminder() {
   return (
     <Base
-      title="Reminder // Zeno Rocha"
+      title="Reminder // Vedant Mistry"
       tagline="Tick-tock. Tick-tock."
       primaryColor="cyan"
       secondaryColor="green"

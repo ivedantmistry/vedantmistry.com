@@ -55,16 +55,16 @@ const firaCode = localFont({
 });
 
 export const metadata = {
-  metadataBase: new URL('https://zenorocha.com'),
+  metadataBase: new URL('https://vedantmistry.com'),
   title: {
-    default: 'Zeno Rocha',
-    template: '%s // Zeno Rocha'
+    default: 'Vedant Mistry',
+    template: '%s // Vedant Mistry'
   },
   description: 'Obsessed with developer experience',
-  authors: [{ name: 'Zeno Rocha' }],
+  authors: [{ name: 'Vedant Mistry' }],
   openGraph: {
     type: 'website',
-    siteName: 'Zeno Rocha'
+    siteName: 'Vedant Mistry'
   },
   twitter: {
     card: 'summary_large_image'

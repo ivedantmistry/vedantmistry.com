@@ -16,10 +16,10 @@ export async function POST(request) {
 
   try {
     const { error } = await resend.emails.send({
-      from: 'zenorocha.com <website@zenorocha.com>',
+      from: 'vedantmistry.com <website@vedantmistry.com>',
       to: process.env.RESEND_DESTINATION_EMAIL,
       replyTo: data.email,
-      subject: `${data.name} - via zenorocha.com`,
+      subject: `${data.name} - via vedantmistry.com`,
       react: emailTemplate
     });
 

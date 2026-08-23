@@ -31,7 +31,7 @@ Exemplo: https://api.foursquare.com/v2/users/self
 {
   "user": {
     "id": "1514606",
-    "firstName": "Zeno",
+    "firstName": "Vedant",
     "lastName": "Rocha",
     "gender": "male",
     "homeCity": "Rio de Janeiro, RJ",
@@ -49,9 +49,9 @@ Exemplo: https://api.foursquare.com/v2/users/self
 
 **OBS:** Toda e qualquer requisição necessita de um número de token para ser autorizada.
 
-*Mais informações:* [](https://developer.foursquare.com/)[https://developer.foursquare.com](https://developer.foursquare.com)
+_Mais informações:_ [](https://developer.foursquare.com/)[https://developer.foursquare.com](https://developer.foursquare.com)
 
-*Veja também:* [API](http://mashable.com/2010/08/19/facebook-places-api/) do **[Facebook Places](http://www.facebook.com/places/)**, serviço que vem conquistando uma boa fatia desse mercado.
+_Veja também:_ [API](http://mashable.com/2010/08/19/facebook-places-api/) do **[Facebook Places](http://www.facebook.com/places/)**, serviço que vem conquistando uma boa fatia desse mercado.
 
 ## Twitter API
 
@@ -80,13 +80,13 @@ Exemplo: http://api.twitter.com/1/users/show.json?screen_name=nomedousuario
   "statuses_count": 3488,
   "followers_count": 15311,
   "profile_link_color": "141617",
-  "name": "Zeno Rocha",
+  "name": "Vedant Mistry",
   "profile_image_url": "http://goo.gl/wCIcX"
 }
 ```
 
 E isso daqui é só trecinho das informações que eles lhe fornecem com essa chamada específica, já pensou na quantidade de aplicações iradas que dá pra fazer com elas?
 
-*Mais informações:* [](http://dev.twitter.com/doc)[http://dev.twitter.com/doc](http://dev.twitter.com/doc)
+_Mais informações:_ [](http://dev.twitter.com/doc)[http://dev.twitter.com/doc](http://dev.twitter.com/doc)
 
 Em breve vou abordar as APIs do Youtube e Flickr, fique ligado!

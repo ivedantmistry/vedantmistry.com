@@ -8,8 +8,8 @@ export const metadata = {
   description:
     "Angel investing is how I help other startups to create amazing developer experiences. I'm excited to enable teams to grow and build world-class products.",
   openGraph: {
-    title: 'Investing // Zeno Rocha',
-    url: 'https://zenorocha.com/investing',
+    title: 'Investing // Vedant Mistry',
+    url: 'https://vedantmistry.com/investing',
     images: ['/static/images/projects-bw.jpg']
   }
 };
@@ -20,7 +20,7 @@ export default function Investing() {
 
   return (
     <Base
-      title="Investing // Zeno Rocha"
+      title="Investing // Vedant Mistry"
       tagline="DevTools. B2B. SaaS."
       primaryColor="purple"
       secondaryColor="cyan"

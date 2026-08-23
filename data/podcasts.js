@@ -98,7 +98,7 @@ const bytetalk = [
 const appearances = [
   {
     date: '2026-01-07',
-    title: 'Zeno Rocha interview at React Conf',
+    title: 'Vedant Mistry interview at React Conf',
     url: 'https://youtu.be/rwe2mt1f2HU'
   },
   {
@@ -161,7 +161,7 @@ const appearances = [
   },
   {
     date: '2021-02-09',
-    title: 'Zeno Rocha em Os Programadores',
+    title: 'Vedant Mistry em Os Programadores',
     url: 'https://anchor.fm/osprogramadores/episodes/E27---Zeno-Rocha---Chief-Product-Officer-na-Liferay-Cloud-eqbe14',
     lang: 'pt-BR'
   },
@@ -198,7 +198,7 @@ const appearances = [
   },
   {
     date: '2020-04-22',
-    title: 'Zeno Rocha on The Mike Dominick Show',
+    title: 'Vedant Mistry on The Mike Dominick Show',
     url: 'https://www.automator.show/14'
   },
   {
@@ -225,7 +225,7 @@ const appearances = [
   },
   {
     date: '2016-07-22',
-    title: 'Zeno Rocha no Dev Na Estrada',
+    title: 'Vedant Mistry no Dev Na Estrada',
     url: 'https://devnaestrada.com.br/2016/07/22/entrevista-zeno-rocha.html',
     lang: 'pt-BR'
   }

@@ -28,7 +28,7 @@ Exemplo: https://graph.facebook.com/zenorocha
 ```json
 {
   "id": "1021864713",
-  "name": "Zeno Rocha",
+  "name": "Vedant Mistry",
   "link": "http://www.facebook.com/zenorocha",
   "username": "zenorocha",
   "gender": "male",
@@ -59,9 +59,9 @@ Exemplo: http://vimeo.com/api/v2/zenorocha/info.json
 ```json
 {
   "id": "6796565",
-  "display_name": "Zeno Rocha",
+  "display_name": "Vedant Mistry",
   "location": "Rio de Janeiro",
-  "url": "https://zenorocha.com",
+  "url": "https://vedantmistry.com",
   "profile_url": "http://vimeo.com/zenorocha",
   "total_videos_liked": 3
 }
@@ -73,6 +73,6 @@ No nosso exemplo, utilizamos a Simple API, numa chamada que consiste em 3 atribu
 http://vimeo.com/api/v2/username/request.output
 ```
 
-Ao todo são 3 opções de *output*, JSON, PHP e XML. Já o número de requests são muitos e podem ser encontrados com mais detalhes no site.
+Ao todo são 3 opções de _output_, JSON, PHP e XML. Já o número de requests são muitos e podem ser encontrados com mais detalhes no site.
 
 _Mais informações: http://vimeo.com/api_

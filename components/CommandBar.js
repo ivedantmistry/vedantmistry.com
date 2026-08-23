@@ -98,7 +98,7 @@ export default function CommandBar(props) {
         section: 'General',
         iconData: sourceIcon,
         perform: () => {
-          window.open('https://github.com/zenorocha/zenorocha.com', '_blank');
+          window.open('https://github.com/ivedantmistry/vedantmistry.com', '_blank');
           setOpen(false);
         },
         iconId: 'source'

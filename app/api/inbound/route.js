@@ -48,11 +48,11 @@ export const POST = async (request) => {
           filename: attachment.filename
         }));
 
-      let fromAddress = 'catch-all@zenorocha.com';
+      let fromAddress = 'catch-all@vedantmistry.com';
 
       switch (email.to?.[0]) {
-        case 'hi@zenorocha.com':
-          fromAddress = 'forward@zenorocha.com';
+        case 'hi@vedantmistry.com':
+          fromAddress = 'forward@vedantmistry.com';
           break;
         case 'hi@clipboardjs.com':
           fromAddress = 'forward@clipboardjs.com';

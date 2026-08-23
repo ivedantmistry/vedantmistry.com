@@ -38,7 +38,7 @@ No mesmo horário tinham palestras excelentes no outros auditórios, como a do 
 
 Pessoalmente acho que foi bem legal, o feedback depois da apresentação também foi positivo e acho que consegui passar minha ideia pro pessoal.
 
-Se você perdeu, pode ver os slides no endereço [labs.zenorocha.com/html5/slides](http://labs.zenorocha.com/html5/slides) (use as setas do teclado para passar de slide). E se você foi, outros feedbacks são muito bem-vindos nos comentários :)
+Se você perdeu, pode ver os slides no endereço [labs.vedantmistry.com/html5/slides](http://labs.vedantmistry.com/html5/slides) (use as setas do teclado para passar de slide). E se você foi, outros feedbacks são muito bem-vindos nos comentários :)
 
 ![](/static/img/tumblr/tumblr_lmk4bfWcMG1qe3219.jpg)
 
@@ -50,7 +50,7 @@ Aí começou um mesa redonda bem interessante sobre Modelos de Negócio em Sof
 
 Mais tarde, o [Rodrigo Carvalho](http://www.rodrigocarvalho.blog.br/) mostrou ferramentas muito legais na sua palestra sobre Integração Contínua com Software Livre. E também peguei o finalzinho da palestra sobre Shell Script do [Júlio Cézar Neves](http://pt.wikipedia.org/wiki/Julio_Cezar_Neves), da qual me arrependi muito de não ter ido depois de ver o pessoal aplaudindo de pé ao fim da apresentação.
 
-Depois uma das melhores palestras do evento, Tatiana Al-Chueyr ([@taty_alchueyr](http://twitter.com/#!/tati_alchueyr)) da Globo.com fez um *hands-on* de desenvolvimento de aplicativos para Android com Python. Deu até vontade de comprar um Android depois disso.
+Depois uma das melhores palestras do evento, Tatiana Al-Chueyr ([@taty_alchueyr](http://twitter.com/#!/tati_alchueyr)) da Globo.com fez um _hands-on_ de desenvolvimento de aplicativos para Android com Python. Deu até vontade de comprar um Android depois disso.
 
 ![Rasmus Lerdorf - Criador do PHP](/static/img/tumblr/tumblr_lmi99jb43K1qe3219.jpg)
 

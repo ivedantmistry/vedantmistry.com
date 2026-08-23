@@ -42,14 +42,14 @@ Mas que tal testarmos com algo “real”, porque certamente esses arquivos fora
 Pra isso queria escolher alguma coisa legal, quem sabe um exemplo do [Box2D](http://www.box2dflash.org/).
 
 <div class="iframe-wrap">
-  <iframe src="http://labs.zenorocha.com/conversor/swf/box2d.swf" width="500" height="276">
+  <iframe src="http://labs.vedantmistry.com/conversor/swf/box2d.swf" width="500" height="276">
   </iframe>
 </div>
 
 Porém, vamos tirando o cavalinho da chuva porque o conversor só funciona com arquivos feitos em ActionScript 3 e não AS2\. Portanto, decidi montar um exemplo simples e que atendesse todos os pré-requisitos mínimos para uma boa conversão.
 
 <div class="iframe-wrap">
-  <iframe src="http://labs.zenorocha.com/conversor/swf/torpedo.swf" width="500" height="450">
+  <iframe src="http://labs.vedantmistry.com/conversor/swf/torpedo.swf" width="500" height="450">
   </iframe>
 </div>
 
@@ -58,7 +58,7 @@ E…tam tam tam…
 O tão esperado resultado.
 
 <div class="iframe-wrap">
-  <iframe src="http://labs.zenorocha.com/conversor/swf/torpedo.html" width="500" height="450">
+  <iframe src="http://labs.vedantmistry.com/conversor/swf/torpedo.html" width="500" height="450">
   </iframe>
 </div>
 
@@ -89,7 +89,7 @@ Lembrando que estes arquivos .fla devem ser gerados apenas na versão CS5 do Fla
 Para o teste com a ferramenta da Adobe utilizei aquele mesmo jogo acima do Torpedo.
 
 <div class="iframe-wrap">
-  <iframe src="http://labs.zenorocha.com/conversor/swf/wallaby.html" width="500" height="450">
+  <iframe src="http://labs.vedantmistry.com/conversor/swf/wallaby.html" width="500" height="450">
   </iframe>
 </div>
 

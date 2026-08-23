@@ -6,19 +6,19 @@ import { Wrapper } from '../components/Wrapper';
 import { getPersonJsonLd } from '../lib/json-ld';
 
 export const metadata = {
-  title: 'Zeno Rocha',
+  title: 'Vedant Mistry',
   description: 'Obsessed with developer experience',
   openGraph: {
-    title: 'Zeno Rocha',
+    title: 'Vedant Mistry',
     description: 'Obsessed with developer experience',
-    url: 'https://zenorocha.com',
+    url: 'https://vedantmistry.com',
     images: ['/static/images/home-bw.jpg']
   }
 };
 
 export default function Index() {
-  const title = 'Zeno Rocha';
-  const description = 'Obsessed with developer experience';
+  const title = 'Vedant Mistry';
+  const description = 'Obsessed with systems';
 
   return (
     <Wrapper>
@@ -36,10 +36,7 @@ export default function Index() {
             <h1>{title}</h1>
             <p className="mt-0">
               <strong>
-                Founder & CEO at{' '}
-                <a href="https://resend.com" target="blank">
-                  Resend
-                </a>
+                A Thinker & Creator
               </strong>
               <br />
               {description}

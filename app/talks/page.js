@@ -10,8 +10,8 @@ export const metadata = {
   description:
     'I went my first conference in 2010 and felt in love with sharing knowledge publicly. Since then, I traveled to 11 countries and gave more than talks.',
   openGraph: {
-    title: 'Talks // Zeno Rocha',
-    url: 'https://zenorocha.com/talks',
+    title: 'Talks // Vedant Mistry',
+    url: 'https://vedantmistry.com/talks',
     images: ['/static/images/talks-bw.jpg']
   }
 };
@@ -65,7 +65,7 @@ export default function Talks() {
 
   return (
     <Base
-      title="Talks // Zeno Rocha"
+      title="Talks // Vedant Mistry"
       tagline="Confs. Meetups. Events."
       primaryColor="purple"
       secondaryColor="cyan"

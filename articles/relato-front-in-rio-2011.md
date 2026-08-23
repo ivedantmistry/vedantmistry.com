@@ -35,7 +35,7 @@ Infelizmente não assisti a palestra inteira, pois precisava organizar algumas c
   </iframe>
 </div>
 
-## Desbravando o HTML5 Boilerplate - Zeno Rocha
+## Desbravando o HTML5 Boilerplate - Vedant Mistry
 
 ![](/static/img/tumblr/tumblr_ln9aopmYZ81qe3219.jpg)
 

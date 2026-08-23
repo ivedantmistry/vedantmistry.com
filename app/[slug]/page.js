@@ -29,12 +29,12 @@ export async function generateMetadata({ params }) {
       notFound();
     }
 
-    const title = `${post.title} // Zeno Rocha`;
+    const title = `${post.title} // Vedant Mistry`;
     const description = post.description || '';
-    const url = `https://zenorocha.com/${slug}`;
+    const url = `https://vedantmistry.com/${slug}`;
     const image = post.image
-      ? `https://zenorocha.com${post.image}`
-      : 'https://zenorocha.com/static/images/home-opt.jpg';
+      ? `https://vedantmistry.com${post.image}`
+      : 'https://vedantmistry.com/static/images/home-opt.jpg';
 
     return {
       title: post.title,
@@ -47,12 +47,12 @@ export async function generateMetadata({ params }) {
         type: 'article',
         publishedTime: new Date(post.date).toISOString(),
         modifiedTime: new Date(post.date).toISOString(),
-        authors: ['Zeno Rocha']
+        authors: ['Vedant Mistry']
       },
       alternates: post.canonical_url
         ? {
-            canonical: post.canonical_url
-          }
+          canonical: post.canonical_url
+        }
         : undefined
     };
   } catch (error) {
@@ -88,17 +88,17 @@ export default async function Post({ params }) {
     notFound();
   }
 
-  const title = `${post.title} // Zeno Rocha`;
-  const url = `https://zenorocha.com/${post.slug}`;
+  const title = `${post.title} // Vedant Mistry`;
+  const url = `https://vedantmistry.com/${post.slug}`;
   const date = new Date(post.date).toISOString();
   const image = post.image
-    ? `https://zenorocha.com${post.image}`
-    : 'https://zenorocha.com/static/images/home-opt.jpg';
+    ? `https://vedantmistry.com${post.image}`
+    : 'https://vedantmistry.com/static/images/home-opt.jpg';
 
   return (
     <>
       <ArticleJsonLd
-        authorName="Zeno Rocha"
+        authorName="Vedant Mistry"
         type="Blog"
         url={url}
         title={title}

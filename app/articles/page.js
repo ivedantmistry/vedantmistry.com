@@ -9,8 +9,8 @@ export const metadata = {
   description:
     'Here you can find all the articles I wrote. You can read about web development, software engineering, and tech career in both English and Portuguese.',
   openGraph: {
-    title: 'Articles // Zeno Rocha',
-    url: 'https://zenorocha.com/articles',
+    title: 'Articles // Vedant Mistry',
+    url: 'https://vedantmistry.com/articles',
     images: ['/static/images/articles-bw.jpg']
   }
 };
@@ -69,7 +69,7 @@ export default async function Articles() {
 
   return (
     <Base
-      title="Articles // Zeno Rocha"
+      title="Articles // Vedant Mistry"
       tagline="Stories. Updates. Guides."
       primaryColor="yellow"
       secondaryColor="pink"

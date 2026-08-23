@@ -24,8 +24,8 @@ export default function AboutClient({ description }) {
       <div className="flex flex-col justify-between md:flex-row">
         <div className="mt-0 w-auto md:w-84">
           <Image
-            alt="Zeno"
-            src="/static/images/avatar.jpg"
+            alt="Vedant"
+            src="/static/images/avatar.jpeg"
             width="336"
             height="336"
             placeholder="blur"
@@ -35,12 +35,12 @@ export default function AboutClient({ description }) {
         </div>
         <div className="mt-0 w-auto md:w-[48%]">
           <p className="mt-4 md:my-3.75 md:-mt-1.5">
-            <strong>Hey, I&apos;m Zeno Rocha</strong>
-            <Pronunciation />I started as a software engineer back in 2009,
-            working with Flash.
+            <strong>Hey, I&apos;m Vedant Mistry</strong>
+            <Pronunciation />I started as a software engineer in 2025,
+            working with Django and Next.js.
           </p>
           <p className="md:my-3.75">
-            I&apos;m the <strong>Founder & CEO</strong> at Resend. Before that,
+            I&apos;m a <strong>Thinker & Creator</strong> and also a Graduate student in Germany. Before that,
             I was a VP of Developer Experience at WorkOS and CPO at Liferay
             Cloud. I&apos;m originally from Brazil and now living in{' '}
             <strong>San Francisco, California</strong> with my amazing wife and
