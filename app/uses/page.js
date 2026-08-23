@@ -4,7 +4,7 @@ import Base from '../../layouts/Base';
 export const metadata = {
   title: 'Uses',
   description:
-    "I often get messages asking about specific pieces of software or hardware I use. This not a static page, it's a living document with everything that I'm using nowadays.",
+    "Here is the list of products I have used and recommend buying it, When you buy using my affiliate links, I get a commission from it, and that supports my journey.",
   openGraph: {
     title: 'Uses // Vedant Mistry',
     url: 'https://vedantmistry.com/uses',
@@ -40,7 +40,7 @@ export default function Uses() {
 
   return (
     <Base
-      title="Uses // Vedant Mistry"
+      title="Uses // Vedant "
       tagline="Tools. Apps. Gear."
       primaryColor="yellow"
       secondaryColor="pink"
@@ -48,7 +48,7 @@ export default function Uses() {
       <p
         dangerouslySetInnerHTML={{
           __html:
-            "I often get messages asking about specific pieces of <strong>software or hardware I use</strong>. This not a static page, it's a <strong>living document</strong> with everything that I'm using nowadays."
+            "Here is the list of products I have used and recommend it, When you buy using my affiliate links, I get a commission from it which helps supporting my journey."
         }}
       />
 
