@@ -6,7 +6,6 @@ import React from 'react';
 
 import { AnimatedIcon } from '../../components/AnimatedIcon';
 import { ButtonPrimary } from '../../components/ButtonPrimary';
-// import Pronunciation from '../../components/Pronunciation';
 import Toast from '../../components/Toast';
 import items from '../../data/about';
 import copyBioIcon from '../../public/static/icons/copy-bio.json';
@@ -24,7 +23,7 @@ export default function AboutClient({ description }) {
       <div className="flex flex-col justify-between md:flex-row">
         <div className="mt-0 w-auto md:w-84">
           <Image
-            alt="Vedant"
+            alt="Vedant Mistry"
             src="/static/images/avatar.jpeg"
             width="336"
             height="336"
@@ -35,24 +34,20 @@ export default function AboutClient({ description }) {
         </div>
         <div className="mt-0 w-auto md:w-[48%]">
           <p className="mt-4 md:my-3.75 md:-mt-1.5">
-            <strong>Hey, I&apos;m Vedant Mistry</strong>
-            {/* <Pronunciation /> */}
-            <br></br>
-            I started as a software engineer in 2025,
-            working with Django and Next.js.
-          </p>
-          {/* <p className="md:my-3.75">
-            I&apos;m a <strong>Thinker & Creator</strong> and also a Graduate student in Germany. Before that,
-            I was a VP of Developer Experience at WorkOS and CPO at Liferay
-            Cloud. I&apos;m originally from Brazil and now living in{' '}
-            <strong>San Francisco, California</strong> with my amazing wife and
-            beautiful daughter.
+            <strong>Hey, I&apos;m Vedant Mistry</strong> a software engineer, builder, and passionate thinker living in <strong>Stuttgart, Germany</strong>.
           </p>
           <p className="md:my-3.75">
-            <strong>I love dark mode</strong>, open source, and side projects.
-            When I&apos;m not working, I like running, watching movies, and{' '}
-            <strong>eating cheese</strong>.
-          </p> */}
+            I approach engineering and life from <strong>first principles</strong>, guided by metacognition, dialectical thinking, and a Stoic mindset. I specialize in building full-stack systems with <strong>Django, Next.js, and PostgreSQL</strong>.
+          </p>
+          <p className="md:my-3.75">
+            Currently, I&apos;m pursuing my Master&apos;s in Applied Computer Science, learning German, and building a new social space at{' '}
+            <a href="https://garden.vedantmistry.com" target="_blank" rel="noopener noreferrer" className="underline font-semibold">
+              garden.vedantmistry.com
+            </a>.
+          </p>
+          <p className="md:my-3.75">
+            <strong>I love discussing</strong> philosophy, physics, astronomy, history, human rights, and music. I&apos;m always open to meaningful collaboration with curious minds.
+          </p>
         </div>
       </div>
     );
@@ -62,8 +57,7 @@ export default function AboutClient({ description }) {
     return (
       <div>
         <p>
-          This is made for journalists, podcast hosts, event organizers and researchers to
-          copy-and-paste.
+          This bio is for journalists, collaborators, and podcast hosts to copy-and-paste.
         </p>
         <blockquote>
           <p>{description}</p>
@@ -116,7 +110,7 @@ export default function AboutClient({ description }) {
         <div className="mb-10" key={`${item.companyUrl}-${item.startDate}`}>
           <h3>{item.jobTitle}</h3>
           <p className="m-0">
-            <a href={item.companyUrl} target="_blank">
+            <a href={item.companyUrl} target="_blank" rel="noopener noreferrer">
               {item.company}
             </a>
             <span> • {item.location}</span>
@@ -161,7 +155,7 @@ export default function AboutClient({ description }) {
 
   const downloadHeadshot = () => {
     setToastTitle('Downloading...');
-    setToastDescription('You can now add this photo to your fancy site.');
+    setToastDescription('Headshot ready for download.');
     setShowToast(true);
   };
 
@@ -170,7 +164,7 @@ export default function AboutClient({ description }) {
     navigator.clipboard.writeText(description);
 
     setToastTitle('Copied :D');
-    setToastDescription('You can now paste it anywhere.');
+    setToastDescription('Bio copied to clipboard.');
     setShowToast(true);
   };
 

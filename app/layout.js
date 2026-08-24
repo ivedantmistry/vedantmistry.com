@@ -60,7 +60,7 @@ export const metadata = {
     default: 'Vedant Mistry',
     template: '%s // Vedant Mistry'
   },
-  description: 'Curious Thinker and Creator',
+  description: 'A Passionate Thinker & A Creator',
   authors: [{ name: 'Vedant Mistry' }],
   openGraph: {
     type: 'website',
@@ -70,7 +70,7 @@ export const metadata = {
     card: 'summary_large_image'
   },
   icons: {
-    icon: '/favicon.svg'
+    icon: '/avatar.jpeg'
   }
 };
 

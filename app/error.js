@@ -14,7 +14,7 @@ export default function ErrorBoundary() {
       <PostMain>
         <PostContainer>
           <Box className="text-center">
-            <h1>five hundred</h1>
+            <h1>Five Hundred</h1>
             <ShortcutError />
             <p>Something isn&apos;t right.</p>
           </Box>

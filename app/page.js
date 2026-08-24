@@ -7,12 +7,12 @@ import { getPersonJsonLd } from '../lib/json-ld';
 
 export const metadata = {
   title: 'Vedant Mistry',
-  description: 'Curious Thinker and Creator',
+  description: 'A Passionate Thinker & A Creator',
   openGraph: {
     title: 'Vedant Mistry',
-    description: 'Curious Thinker and Creator',
+    description: 'A Passionate Thinker & A Creator',
     url: 'https://vedantmistry.com',
-    images: ['/static/images/home-bw.jpg']
+    images: ['/static/images/avatar.jpeg']
   }
 };
 
@@ -36,7 +36,7 @@ export default function Index() {
             <h1>{title}</h1>
             <p className="mt-0">
               <strong>
-                A Thinker & Creator
+                A Passionate Thinker & A Creator
               </strong>
               <br />
               {description}

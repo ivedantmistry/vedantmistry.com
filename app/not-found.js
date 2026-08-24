@@ -12,7 +12,7 @@ export default function NotFound() {
       <PostMain>
         <PostContainer>
           <Box className="text-center">
-            <h1>four O four</h1>
+            <h1>Four Ooops Four</h1>
             <ShortcutError />
             <p>This page doesn&apos;t exist in this universe.</p>
           </Box>
