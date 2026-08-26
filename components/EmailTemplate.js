@@ -1,10 +1,8 @@
-import { Html } from '@react-email/html';
+import React from 'react';
 
-export default function EmailTemplate(props) {
-  const { name, email, message } = props;
-
+export default function EmailTemplate({ name, email, message }) {
   return (
-    <Html>
+    <div>
       <ul>
         <li>
           <strong>Name:</strong> {name}
@@ -16,6 +14,6 @@ export default function EmailTemplate(props) {
           <strong>Message:</strong> {message}
         </li>
       </ul>
-    </Html>
+    </div>
   );
 }
