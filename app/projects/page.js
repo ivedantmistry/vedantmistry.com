@@ -8,7 +8,7 @@ export const metadata = {
   description:
     "I'm obsessed with side projects and building in public. Here you can navigate to different websites, apps, and libraries I built.",
   openGraph: {
-    title: 'Projects // Vedant Mistry',
+    title: 'Projects | Vedant Mistry',
     url: 'https://vedantmistry.com/projects',
     images: ['/static/images/projects-bw.jpg']
   }
@@ -68,7 +68,7 @@ export default function Projects() {
 
   return (
     <Base
-      title="Projects // Vedant Mistry"
+      title="Projects | Vedant Mistry"
       tagline="Work. Hobby. Open Source."
       primaryColor="cyan"
       secondaryColor="green"

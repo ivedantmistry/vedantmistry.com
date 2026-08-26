@@ -6,7 +6,7 @@ export const metadata = {
   description:
     "Here is the list of products I have used and recommend buying it, When you buy using my affiliate links, I get a commission from it, and that supports my journey.",
   openGraph: {
-    title: 'Uses // Vedant Mistry',
+    title: 'Uses | Vedant Mistry',
     url: 'https://vedantmistry.com/uses',
     images: ['/static/images/uses-bw.jpg']
   }
@@ -40,7 +40,7 @@ export default function Uses() {
 
   return (
     <Base
-      title="Uses // Vedant "
+      title="Uses | Vedant "
       tagline="Tools. Apps. Gear."
       primaryColor="yellow"
       secondaryColor="pink"

@@ -1,3 +1,5 @@
+// /app/api/email/route.js
+
 import { Resend } from 'resend';
 
 import EmailTemplate from '../../../components/EmailTemplate';

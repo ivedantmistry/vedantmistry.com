@@ -58,7 +58,7 @@ export const metadata = {
   metadataBase: new URL('https://vedantmistry.com'),
   title: {
     default: 'Vedant Mistry',
-    template: '%s // Vedant Mistry'
+    template: '%s | Vedant Mistry'
   },
   description: 'A Passionate Thinker & A Creator',
   authors: [{ name: 'Vedant Mistry' }],
@@ -70,7 +70,7 @@ export const metadata = {
     card: 'summary_large_image'
   },
   icons: {
-    icon: '/avatar.jpeg'
+    icon: '/static/images/avatar.jpeg'
   }
 };
 

@@ -8,6 +8,14 @@ const items = [
     location: 'Remote'
   },
   {
+    jobTitle: 'Front-End Developer Intern',
+    company: 'GUITAR Council',
+    companyUrl: 'https://www.guiitarstartupcouncil.org',
+    startDate: '2025-03-01',
+    endDate: '2025-07-01',
+    location: 'Vadodara, India'
+  },
+  {
     jobTitle: 'Co-Founder',
     company: 'HushCabs.com',
     companyUrl: 'https://hushcabs.com',
@@ -16,12 +24,12 @@ const items = [
     location: 'Vadodara, India'
   },
   {
-    jobTitle: 'Front-End Developer Intern',
-    company: 'GUITAR Council',
-    companyUrl: 'https://www.guiitarstartupcouncil.org',
-    startDate: '2025-03-01',
-    endDate: '2025-07-01',
-    location: 'Vadodara, India'
+    jobTitle: 'Data Science Intern',
+    company: 'Cipherbyte Technologies',
+    companyUrl: 'https://cipherbytetechnologies.netlify.app',
+    startDate: '2024-06-01',
+    endDate: '2024-07-01',
+    location: 'Remote'
   }
 ];
 

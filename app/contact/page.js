@@ -39,7 +39,7 @@ export default function Contact() {
 
   return (
     <Base
-      title="Contact // Vedant Mistry"
+      title="Contact | Vedant Mistry"
       tagline="Emails. Emails. Emails."
       primaryColor="cyan"
       secondaryColor="green"

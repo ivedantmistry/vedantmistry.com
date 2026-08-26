@@ -12,9 +12,6 @@ export default function Navbar() {
     'About',
     'Articles',
     'Projects',
-    // 'Talks',
-    'Podcasts',
-    // 'Investing',
     'Uses',
     'Reminder'
   ];
@@ -26,7 +23,7 @@ export default function Navbar() {
         href="/"
         className="hover:bg-hover font-display text-primary ml-3 flex h-8.5 cursor-pointer appearance-none items-center rounded-lg border-none bg-transparent px-2.5 text-[2rem] leading-none font-bold no-underline transition-all duration-300 ease-in-out"
       >
-        <span className="translate-y-0.25">z</span>
+        <span className="translate-y-0.25">v</span>
       </Link>
       <nav className="flex-basis-full lg:flex-basis-initial order-2 flex-1 text-center max-lg:overflow-x-scroll max-lg:overflow-y-hidden lg:order-0">
         <ul className="relative top-0 m-0 inline-flex list-none p-0 lg:top-1.25 lg:justify-around">

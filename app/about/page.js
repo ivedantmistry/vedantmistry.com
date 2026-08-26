@@ -2,11 +2,11 @@ import Base from '../../layouts/Base';
 import AboutClient from './AboutClient';
 
 export const metadata = {
-  title: 'About // Vedant Mistry',
+  title: 'About',
   description:
     "Vedant Mistry is a software engineer, startup founder, and passionate thinker based in Stuttgart, Germany. He specializes in Django, Next.js, and building tech platforms driven by first-principles reasoning.",
   openGraph: {
-    title: 'About // Vedant Mistry',
+    title: 'About | Vedant Mistry',
     description:
       "Vedant Mistry is a software engineer, startup founder, and passionate thinker based in Stuttgart, Germany. He specializes in Django, Next.js, and building tech platforms driven by first-principles reasoning.",
     url: 'https://vedantmistry.com/about',
@@ -20,7 +20,7 @@ export default function About() {
 
   return (
     <Base
-      title="About // Vedant Mistry"
+      title="About | Vedant Mistry"
       tagline="Reason. Reason. Reason."
       primaryColor="pink"
       secondaryColor="purple"

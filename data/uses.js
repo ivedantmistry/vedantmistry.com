@@ -3,10 +3,10 @@ const categories = [
     name: 'Desk',
     items: [
       {
-        title: 'MacBook Pro (13", 2026)',
+        title: 'MacBook Air (13", 2026)',
         description:
           'The M5 chip is just amazing. Plus, 16 GB RAM and 512GB storage.',
-        url: 'https://amzn.to/3pVZUNz'
+        url: ''
       },
      
     ]
@@ -304,18 +304,18 @@ const categories = [
   //     }
   //   ]
   // },
-  {
-    name: 'Reading',
-    items: [
-      {
-        title: 'Meditations - Marcus Aurelius',
-        description:
-          'I particularly like this device since it has built-in lights and physical buttons.',
-        url: 'https://amzn.to/3mAbMmm'
-      },
+  // {
+  //   name: 'Reading',
+  //   items: [
+  //     {
+  //       title: 'Meditations - Marcus Aurelius',
+  //       description:
+  //         'I particularly like this device since it has built-in lights and physical buttons.',
+  //       url: 'https://amzn.to/3mAbMmm'
+  //     },
       
-    ]
-  }
+  //   ]
+  // }
 ];
 
 export default categories;

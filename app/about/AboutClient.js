@@ -9,28 +9,29 @@ import { ButtonPrimary } from '../../components/ButtonPrimary';
 import Toast from '../../components/Toast';
 import items from '../../data/about';
 import copyBioIcon from '../../public/static/icons/copy-bio.json';
-import downloadIcon from '../../public/static/icons/download.json';
 
 export default function AboutClient({ description }) {
   const [toastTitle, setToastTitle] = React.useState('');
   const [toastDescription, setToastDescription] = React.useState('');
   const [showToast, setShowToast] = React.useState(false);
   const copyBioRef = React.useRef();
-  const downloadRef = React.useRef();
 
   const renderIntro = () => {
     return (
       <div className="flex flex-col justify-between md:flex-row">
         <div className="mt-0 w-auto md:w-84">
-          <Image
-            alt="Vedant Mistry"
-            src="/static/images/avatar.jpeg"
-            width="336"
-            height="336"
-            placeholder="blur"
-            blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAP0lEQVQImQE0AMv/AFBQUJKSkqmpqaOjowCurq7v7+/Jycm5ubkA////jIyMn5+fg4ODADAwMD09PWlpaQAAAApRGnEHblMWAAAAAElFTkSuQmCC"
-            priority
-          />
+          <div className="mt-0 w-auto md:w-84">
+            <Image
+              alt="Vedant Mistry"
+              src="/static/images/avatar.jpeg"
+              width="336"
+              height="336"
+              style={{ width: 'auto', height: 'auto' }}
+              placeholder="blur"
+              blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAP0lEQVQImQE0AMv/AFBQUJKSkqmpqaOjowCurq7v7+/Jycm5ubkA////jIyMn5+fg4ODADAwMD09PWlpaQAAAApRGnEHblMWAAAAAElFTkSuQmCC"
+              priority
+            />
+          </div>
         </div>
         <div className="mt-0 w-auto md:w-[48%]">
           <p className="mt-4 md:my-3.75 md:-mt-1.5">
@@ -41,8 +42,8 @@ export default function AboutClient({ description }) {
           </p>
           <p className="md:my-3.75">
             Currently, I&apos;m pursuing my Master&apos;s in Applied Computer Science, learning German, and building a new social space at{' '}
-            <a href="https://garden.vedantmistry.com" target="_blank" rel="noopener noreferrer" className="underline font-semibold">
-              garden.vedantmistry.com
+            <a href="https://social.vedantmistry.com" target="_blank" rel="noopener noreferrer" className="underline font-semibold">
+              social.vedantmistry.com
             </a>.
           </p>
           <p className="md:my-3.75">
@@ -79,26 +80,7 @@ export default function AboutClient({ description }) {
             />
             Copy Bio
           </ButtonPrimary>
-          <span className="mt-0 mr-5 mb-0 ml-2.5">•</span>
-          <ButtonPrimary
-            as="a"
-            download
-            role="button"
-            href="/static/images/avatar.jpg"
-            className="inline-flex items-center justify-center"
-            onClick={downloadHeadshot}
-            onMouseEnter={() => downloadRef.current?.play()}
-            onMouseLeave={() => downloadRef.current?.stop()}
-          >
-            <AnimatedIcon
-              lottieRef={downloadRef}
-              animationData={downloadIcon}
-              loop={false}
-              autoplay={false}
-              className="mr-2"
-            />
-            Download Headshot
-          </ButtonPrimary>
+
         </div>
       </div>
     );
@@ -151,13 +133,7 @@ export default function AboutClient({ description }) {
     }
 
     return durationStr.trim();
-  };
-
-  const downloadHeadshot = () => {
-    setToastTitle('Downloading...');
-    setToastDescription('Headshot ready for download.');
-    setShowToast(true);
-  };
+  }
 
   const copyBio = (e) => {
     e.preventDefault();

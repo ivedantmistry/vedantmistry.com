@@ -19,12 +19,12 @@ import articlesIcon from '../public/static/icons/articles.json';
 import copyLinkIcon from '../public/static/icons/copy-link.json';
 import emailIcon from '../public/static/icons/email.json';
 import homeIcon from '../public/static/icons/home.json';
-import investingIcon from '../public/static/icons/investing.json';
-import podcastsIcon from '../public/static/icons/podcasts.json';
+// import investingIcon from '../public/static/icons/investing.json';
+// import podcastsIcon from '../public/static/icons/podcasts.json';
 import projectsIcon from '../public/static/icons/projects.json';
 import reminderIcon from '../public/static/icons/reminder.json';
 import sourceIcon from '../public/static/icons/source.json';
-import talksIcon from '../public/static/icons/talks.json';
+// import talksIcon from '../public/static/icons/talks.json';
 import usesIcon from '../public/static/icons/uses.json';
 import { AnimatedIcon } from './AnimatedIcon';
 import { Box } from './Box';
@@ -54,9 +54,9 @@ export default function CommandBar(props) {
     about: ['g', 'a'],
     articles: ['g', 'b'],
     projects: ['g', 'p'],
-    talks: ['g', 't'],
-    podcasts: ['g', 'c'],
-    investing: ['g', 'i'],
+    // talks: ['g', 't'],
+    // podcasts: ['g', 'c'],
+    // investing: ['g', 'i'],
     uses: ['g', 'u'],
     reminder: ['g', 'r']
   };
@@ -157,45 +157,45 @@ export default function CommandBar(props) {
         },
         iconId: 'projects'
       },
-      {
-        id: 'talks',
-        name: 'Talks',
-        shortcut: shortcutCombos.talks,
-        keywords: 'go-talks',
-        section: 'Go To',
-        iconData: talksIcon,
-        perform: () => {
-          router.push('/talks');
-          setOpen(false);
-        },
-        iconId: 'talks'
-      },
-      {
-        id: 'podcasts',
-        name: 'Podcasts',
-        shortcut: shortcutCombos.podcasts,
-        keywords: 'go-podcasts',
-        section: 'Go To',
-        iconData: podcastsIcon,
-        perform: () => {
-          router.push('/podcasts');
-          setOpen(false);
-        },
-        iconId: 'podcasts'
-      },
-      {
-        id: 'investing',
-        name: 'Investing',
-        shortcut: shortcutCombos.investing,
-        keywords: 'go-investing',
-        section: 'Go To',
-        iconData: investingIcon,
-        perform: () => {
-          router.push('/investing');
-          setOpen(false);
-        },
-        iconId: 'investing'
-      },
+      // {
+      //   id: 'talks',
+      //   name: 'Talks',
+      //   shortcut: shortcutCombos.talks,
+      //   keywords: 'go-talks',
+      //   section: 'Go To',
+      //   iconData: talksIcon,
+      //   perform: () => {
+      //     router.push('/talks');
+      //     setOpen(false);
+      //   },
+      //   iconId: 'talks'
+      // },
+      // {
+      //   id: 'podcasts',
+      //   name: 'Podcasts',
+      //   shortcut: shortcutCombos.podcasts,
+      //   keywords: 'go-podcasts',
+      //   section: 'Go To',
+      //   iconData: podcastsIcon,
+      //   perform: () => {
+      //     router.push('/podcasts');
+      //     setOpen(false);
+      //   },
+      //   iconId: 'podcasts'
+      // },
+      // {
+      //   id: 'investing',
+      //   name: 'Investing',
+      //   shortcut: shortcutCombos.investing,
+      //   keywords: 'go-investing',
+      //   section: 'Go To',
+      //   iconData: investingIcon,
+      //   perform: () => {
+      //     router.push('/investing');
+      //     setOpen(false);
+      //   },
+      //   iconId: 'investing'
+      // },
       {
         id: 'uses',
         name: 'Uses',
@@ -252,13 +252,13 @@ export default function CommandBar(props) {
   useHotkeys(shortcutCombos.projects.join('>'), () =>
     actionsById.projects.perform()
   );
-  useHotkeys(shortcutCombos.talks.join('>'), () => actionsById.talks.perform());
-  useHotkeys(shortcutCombos.podcasts.join('>'), () =>
-    actionsById.podcasts.perform()
-  );
-  useHotkeys(shortcutCombos.investing.join('>'), () =>
-    actionsById.investing.perform()
-  );
+  // useHotkeys(shortcutCombos.talks.join('>'), () => actionsById.talks.perform());
+  // useHotkeys(shortcutCombos.podcasts.join('>'), () =>
+  //   actionsById.podcasts.perform()
+  // );
+  // useHotkeys(shortcutCombos.investing.join('>'), () =>
+  //   actionsById.investing.perform()
+  // );
   useHotkeys(shortcutCombos.uses.join('>'), () => actionsById.uses.perform());
   useHotkeys(shortcutCombos.reminder.join('>'), () =>
     actionsById.reminder.perform()

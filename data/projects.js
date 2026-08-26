@@ -5,15 +5,15 @@ const items = [
       {
         title: 'Laboratory Portal for GSFC Ltd',
         description: 'Quality Management System for an enterprise chemical lab with immutable test result tracking',
-        url: 'https://vedantmistry.com',
+        url: 'https://gsfc.vedantmistry.com',
         active: true,
         icon: 'flask',
         stats: 'Django / Postgres'
       },
       {
-        title: 'HushCabs',
+        title: 'HushCabs.com',
         description: 'Subscription-based ride-hailing MVP validated with government grant funding',
-        url: 'https://hushcabs.com',
+        url: 'https://www.hushcabs.com',
         active: false,
         icon: 'car',
         stats: 'INR 240k Grant'
@@ -21,7 +21,7 @@ const items = [
       {
         title: 'GUITAR Council Website',
         description: 'Headless CMS migration and responsive platform rebuild using Sanity.io',
-        url: '',
+        url: 'https://www.guiitarstartupcouncil.org/',
         active: true,
         icon: 'Revamp'
       }
