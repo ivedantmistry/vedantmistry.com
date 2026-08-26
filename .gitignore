@@ -3,3 +3,5 @@
 auth.json
 node_modules
 .env*.local
+.env
+.env.local

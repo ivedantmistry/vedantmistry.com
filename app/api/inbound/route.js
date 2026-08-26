@@ -1,11 +1,9 @@
-// // /app/api/inbound/route.js
-
 import { NextResponse } from 'next/server';
 import { Resend } from 'resend';
 
-const resend = new Resend(process.env.RESEND_API_KEY);
-
 export const POST = async (request) => {
+  const resend = new Resend(process.env.RESEND_API_KEY);
+
   try {
     const payload = await request.text();
 
@@ -34,39 +32,23 @@ export const POST = async (request) => {
       }
 
       const { data: attachmentsResponse, error: attachmentsError } =
-        await resend.emails.receiving.attachments.list({
-          emailId
-        });
+        await resend.emails.receiving.attachments.list({ emailId });
 
       if (attachmentsError) {
         console.error('Failed to retrieve attachments:', attachmentsError);
       }
 
       const attachmentsList = attachmentsResponse?.data ?? [];
+      const attachments = attachmentsList.map((attachment) => ({
+        path: attachment.download_url,
+        filename: attachment.filename
+      }));
 
-      const attachments = attachmentsList
-        .map((attachment) => ({
-          path: attachment.download_url,
-          filename: attachment.filename
-        }));
-
-      let fromAddress = 'catch-all@vedantmistry.com';
-
-      switch (email.to?.[0]) {
-        case 'hi@vedantmistry.com':
-          fromAddress = 'forward@vedantmistry.com';
-          break;
-        case 'hi@clipboardjs.com':
-          fromAddress = 'forward@clipboardjs.com';
-          break;
-        case 'zeno@14habits.com':
-          fromAddress = 'forward@14habits.com';
-          break;
-      }
+      const fromAddress = 'forward@vedantmistry.com';
 
       const { error: sendError } = await resend.emails.send({
         from: fromAddress,
-        to: process.env.RESEND_DESTINATION_EMAIL,
+        to: 'hi@vedantmistry.com',
         replyTo: event.data.from,
         subject: event.data.subject || email.subject || '',
         html: email.html || '',

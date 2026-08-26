@@ -15,10 +15,8 @@ export default function Contact() {
     e.preventDefault();
 
     try {
-      const isProd = process.env.NODE_ENV === 'production';
-      const base = isProd ? 'https://vedantmistry.com' : 'http://localhost:3000';
 
-      await fetch(`${base}/api/email`, {
+      await fetch('/api/email', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
@@ -30,6 +28,7 @@ export default function Contact() {
 
       setIsEmailSent(true);
       setShowToast(true);
+      e.target.reset();
     } catch (e) {
       console.error(e);
       setIsEmailSent(false);

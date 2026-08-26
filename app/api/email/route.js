@@ -1,12 +1,10 @@
-// /app/api/email/route.js
-
 import { Resend } from 'resend';
-
 import EmailTemplate from '../../../components/EmailTemplate';
 
-const resend = new Resend(process.env.RESEND_API_KEY);
-
 export async function POST(request) {
+  // Initialize Resend inside the request handler
+  const resend = new Resend(process.env.RESEND_API_KEY);
+
   let data;
   try {
     data = await request.json();
@@ -19,7 +17,7 @@ export async function POST(request) {
   try {
     const { error } = await resend.emails.send({
       from: 'vedantmistry.com <website@vedantmistry.com>',
-      to: process.env.RESEND_DESTINATION_EMAIL,
+      to: 'hi@vedantmistry.com',
       replyTo: data.email,
       subject: `${data.name} - via vedantmistry.com`,
       react: emailTemplate
