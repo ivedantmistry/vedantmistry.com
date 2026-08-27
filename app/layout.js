@@ -3,7 +3,6 @@ import 'remixicon/fonts/remixicon.css';
 import './globals.css';
 
 import localFont from 'next/font/local';
-import Script from 'next/script';
 import { Analytics } from '@vercel/analytics/next';
 import { SpeedInsights } from '@vercel/speed-insights/next';
 import { GoogleTagManager } from '@next/third-parties/google'
@@ -78,6 +77,9 @@ export const metadata = {
 export const viewport = {
   themeColor: '#08070b'
 };
+<GoogleTagManager gtmId="GTM-PZ6ZWN4R" />
+
+
 
 export default function RootLayout({ children }) {
   return (
@@ -86,18 +88,7 @@ export default function RootLayout({ children }) {
       className={`${biotif.variable} ${neuzeitGroteskBold.variable} ${firaCode.variable} bg-background text-secondary touch-manipulation overscroll-contain font-sans antialiased`}
     >
       <body suppressHydrationWarning>
-        <Script
-          src={`https://www.googletagmanager.com/gtag/js?id=${GA_TRACKING_ID}`}
-          strategy="afterInteractive"
-        />
-        <Script id="google-analytics" strategy="afterInteractive">
-          {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', '${GA_TRACKING_ID}');
-          `}
-        </Script>
+
         <Template>
           <CommandBar>{children}</CommandBar>
         </Template>
