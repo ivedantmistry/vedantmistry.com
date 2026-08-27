@@ -11,10 +11,13 @@
     "deploy": "vercel --prod"
   },
   "dependencies": {
+    "@next/third-parties": "^16.3.3",
     "@radix-ui/react-dialog": "^1.1.23",
     "@radix-ui/react-toast": "^1.2.23",
     "@radix-ui/react-visually-hidden": "^1.2.4",
     "@react-email/html": "^0.0.12",
+    "@vercel/analytics": "^2.0.1",
+    "@vercel/speed-insights": "^2.0.0",
     "cmdk": "^1.1.1",
     "date-fns": "^4.4.0",
     "framer-motion": "^13.0.0",

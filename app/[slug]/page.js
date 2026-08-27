@@ -1,3 +1,5 @@
+// app/[slug]/page.js
+
 import { notFound } from 'next/navigation';
 import { ArticleJsonLd } from 'next-seo';
 
@@ -13,7 +15,6 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params }) {
   const { slug } = await params;
 
-  // Immediately 404 if the slug contains a dot (e.g., .png, .ico) to prevent static file lookups
   if (slug.includes('.')) {
     notFound();
   }
@@ -35,7 +36,7 @@ export async function generateMetadata({ params }) {
     const url = `https://vedantmistry.com/${slug}`;
     const image = post.image
       ? `https://vedantmistry.com${post.image}`
-      : 'https://vedantmistry.com/static/images/home-opt.jpg';
+      : 'https://vedantmistry.com/static/images/avatar.jpeg';
 
     return {
       title: post.title,
@@ -53,7 +54,7 @@ export async function generateMetadata({ params }) {
       alternates: post.canonical_url ? { canonical: post.canonical_url } : undefined
     };
   } catch (error) {
-    // Removed the console.warn here to keep terminal clean during expected 404s
+
     return { title: 'Not Found' };
   }
 }
@@ -79,7 +80,7 @@ export default async function Post({ params }) {
       'title'
     ]);
   } catch (error) {
-    // Removed console.warn to prevent log spam
+
     notFound();
   }
 
@@ -90,7 +91,7 @@ export default async function Post({ params }) {
   const date = new Date(post.date).toISOString();
   const image = post.image
     ? `https://vedantmistry.com${post.image}`
-    : 'https://vedantmistry.com/static/images/home-opt.jpg';
+    : 'https://vedantmistry.com/static/images/avatar.jpeg';
 
   return (
     <>

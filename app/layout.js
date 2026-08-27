@@ -4,9 +4,10 @@ import './globals.css';
 
 import localFont from 'next/font/local';
 import Script from 'next/script';
-
+import { Analytics } from '@vercel/analytics/next';
+import { SpeedInsights } from '@vercel/speed-insights/next';
+import { GoogleTagManager } from '@next/third-parties/google'
 import CommandBar from '../components/CommandBar';
-import { GA_TRACKING_ID } from '../lib/gtag';
 import Template from './template';
 
 const biotif = localFont({
@@ -100,6 +101,9 @@ export default function RootLayout({ children }) {
         <Template>
           <CommandBar>{children}</CommandBar>
         </Template>
+        <Analytics />
+        <SpeedInsights />
+        <GoogleTagManager gtmId="GTM-PZ6ZWN4R" />
       </body>
     </html>
   );
