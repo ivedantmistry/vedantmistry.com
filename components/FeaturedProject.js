@@ -1,14 +1,11 @@
 'use client';
 
 import { useRef } from 'react';
-
 import { AnimatedIcon } from './AnimatedIcon';
 import { HoverAnimation } from './HoverAnimation';
 
 export default function FeaturedProject(props) {
   const { project } = props;
-
-  // eslint-disable-next-line @typescript-eslint/no-require-imports
   const icon = require(`../public/static/icons/${project.icon}.json`);
   const iconRef = useRef();
 

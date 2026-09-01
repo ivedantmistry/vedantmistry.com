@@ -1,4 +1,5 @@
 const items = [
+
   {
     year: '2025',
     projects: [
@@ -9,6 +10,21 @@ const items = [
         active: true,
         icon: 'flask',
         stats: 'Django / Postgres'
+      },
+      {
+        title: 'Energic Engineers',
+        description: 'Developed a website for prestigious transformer company in Vadodara',
+        url: 'https://www.energicengineers.com/',
+        active: false,
+        icon: 'car',
+        stats: 'Freelance Client'
+      },
+      {
+        title: 'Voltag Electricals',
+        description: 'Developed a store website for Voltag Electricals using Next.js and Sanity.io',
+        url: 'https://www.veproducts.in/',
+        active: true,
+        icon: 'Freelance Client'
       },
       {
         title: 'HushCabs.com',

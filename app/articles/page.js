@@ -7,7 +7,7 @@ import { getAllPosts, getPostBySlug } from '../../lib/blog';
 export const metadata = {
   title: 'Articles',
   description:
-    'Here you can find all the articles I wrote. You can read about web development, software engineering, and tech career in both English and Portuguese.',
+    'You can read about Philosophy, Human Anatomy, Pyschology, Technology and glimpse inside my mind in English and will try in German too. All the articles written here are written by my own and not using an AI, so you are reading unfiltered me.',
   openGraph: {
     title: 'Articles | Vedant Mistry',
     url: 'https://vedantmistry.com/articles',
@@ -28,10 +28,10 @@ export default async function Articles() {
   ];
 
   const featuredPosts = [
-    getPostBySlug('the-two-types-of-quality', featuredParams),
+    getPostBySlug('stargazers-in-a-sandbox', featuredParams),
   ];
 
-  const description = `Here you can find all the <strong>${allPosts.length} articles</strong> I wrote. You can read about web development, software engineering, and tech career in both English and Portuguese.`;
+  const description = `Here you can find all the <strong>${allPosts.length} article</strong> I have wrote. You can read about Philosophy, Human Anatomy, Pyschology, Technology and glimpse inside my mind in English and will try in German too. All the articles written here are written by my own and not using an AI, so you're reading unfiltered me.`;
 
   const renderFeatured = () => {
     return featuredPosts.map((post, index) => {

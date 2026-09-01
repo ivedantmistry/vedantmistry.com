@@ -16,7 +16,7 @@ export const metadata = {
 
 export default function About() {
   const description =
-    "Vedant Mistry is an Indian software engineer, builder, and graduate student based in Stuttgart, Germany. Guided by metacognition, dialectical thinking, and Stoic philosophy, he focuses on full-stack web architectures and building new-generation social systems.";
+    "Vedant Mistry is an Indian software engineer, builder, and graduate student based in Stuttgart, Germany. Guided by metacognition, dialectical thinking, and Stoic philosophy, he focuses on full-stack web architectures.";
 
   return (
     <Base

@@ -24,6 +24,14 @@ const items = [
     location: 'Vadodara, India'
   },
   {
+    jobTitle: 'Chess.com Ambassador',
+    company: 'Chess.com',
+    companyUrl: 'https://chess.com',
+    startDate: '2024-09-01',
+    endDate: '2024-11-01',
+    location: 'Vadodara, India'
+  },
+  {
     jobTitle: 'Data Science Intern',
     company: 'Cipherbyte Technologies',
     companyUrl: 'https://cipherbytetechnologies.netlify.app',

@@ -40,12 +40,12 @@ export default function AboutClient({ description }) {
           <p className="md:my-3.75">
             I approach engineering and life from <strong>first principles</strong>, guided by metacognition, dialectical thinking, and a Stoic mindset. I specialize in building full-stack systems with <strong>Django, Next.js, and PostgreSQL</strong>.
           </p>
-          <p className="md:my-3.75">
+          {/* <p className="md:my-3.75">
             Currently, I&apos;m pursuing my Master&apos;s in Applied Computer Science, learning German, and building a new social space at{' '}
             <a href="https://social.vedantmistry.com" target="_blank" rel="noopener noreferrer" className="underline font-semibold">
               social.vedantmistry.com
             </a>.
-          </p>
+          </p> */}
           <p className="md:my-3.75">
             <strong>I love discussing</strong> philosophy, physics, astronomy, history, human rights, and music. I&apos;m always open to meaningful collaboration with curious minds.
           </p>
